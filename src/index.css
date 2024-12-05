@@ -45,9 +45,11 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 6px;
 }
 button:hover {
   border-color: #646cff;
+  cursor: pointer;
 }
 button:focus,
 button:focus-visible {
@@ -65,4 +67,23 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+input{
+  margin: 4px;
+}
+
+.validationError, .errorMessage{
+color: red;
+}
+
+.successMessage{
+  color: green;
+}
+
+.username{
+  color: blue;
+  background-color: #d4c2c2;
+  border-radius: 4px;
+  padding: 4px;
 }
